@@ -47,7 +47,7 @@ And receive an intelligent reply powered by OpenRouter's ChatGPT model.
 3. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/chatgpt-discord-bot.git
+git clone https://github.com/faizan-devs/Discord-Bot
 cd chatgpt-discord-bot
 ```
 

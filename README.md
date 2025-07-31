@@ -36,11 +36,10 @@ GUILD_ID=Your_ID
 PORT=3000
 ```
 
-2. Slash Command: /ask
-
-```bash
-/ask question: How does AI work?
-```
+2. Slash Command: /ask, /history <br>
+   In Discord Server:- <br>
+   `/ask` question: How does AI work? <br>
+   `/history` Press Enter (To get 5 recent search history)
 
 And receive an intelligent reply powered by OpenRouter's ChatGPT model.
 
@@ -49,20 +48,4 @@ And receive an intelligent reply powered by OpenRouter's ChatGPT model.
 ```bash
 git clone https://github.com/faizan-devs/Discord-Bot
 cd chatgpt-discord-bot
-```
-
-4. Project Structure
-
-```bash
-.
-├── commands/
-│   └── ask.js             # Slash command logic
-├── utils/
-│   ├── chatgpt.js         # OpenRouter API call
-│   └── cooldown.js        # Cooldown tracker
-├── index.js               # Main bot entry
-├── deploy-commands.js     # Slash command registration
-├── .env                   # Environment variables
-└── README.md
-
 ```

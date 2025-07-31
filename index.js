@@ -3,10 +3,14 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { Client, Collection, GatewayIntentBits } from 'discord.js';
+import { connectToDatabase } from './config/database.js';
 import express from 'express';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Connect to MongoDB
+await connectToDatabase()
 
 // Initialize client
 const client = new Client({
